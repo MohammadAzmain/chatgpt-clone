@@ -32,7 +32,7 @@ function App() {
     updateMsg("loading...", false, true)
     setInput("")
     fetchBotResponse().then((res) => {
-      console.log(res)
+      // console.log(res)
       updateMsg(res.bot.trim(), true)
     })
   }
